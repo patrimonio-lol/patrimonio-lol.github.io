@@ -398,8 +398,8 @@
 
 				//
 
-				camera = new THREE.PerspectiveCamera( 50, window.innerWidth / window.innerHeight, 1, 3000 );
-				camera.position.set( 0, 0, 2000 );
+				camera = new THREE.PerspectiveCamera( 50, window.innerWidth / window.innerHeight, 1, 5000 );
+				camera.position.set( 0, 0, 3000 );
 
 				//
 
@@ -437,7 +437,7 @@
 
 				const controls = new OrbitControls( camera, renderer.domElement );
 				controls.minDistance = 100;
-				controls.maxDistance = 2000;
+				controls.maxDistance = 3000;
 
 				//
 
